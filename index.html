@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/styles.css" >
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header></header>
+        <!-- Nav Section -->
+        <nav></nav>
+        <!-- Main Content -->
+        <div id="calcDisplay" class="calDisplay"></div>
+        <section>
+            <article>
+                <!-- Main Interface -->
+                <div class="buttons">
+                    <div class="grid-container">
+                        <button id="C" class="grid-item" onclick="clearFunc()">C</button>
+                        <button id="" class="grid-item disabled">+/-</button>
+                        <button id="%" class="grid-item disabled">%</button>
+                        <button id="/" class="grid-item func" onclick="button('/')">/</button>
+                        <button id="7" class="grid-item" onclick="button('7')">7</button>
+                        <button id="8" class="grid-item" onclick="button('8')">8</button>
+                        <button id="9" class="grid-item" onclick="button('9')">9</button>
+                        <button id="*" class="grid-item func" onclick="button('*')">*</button>
+                        <button id="4" class="grid-item" onclick="button('4')">4</button>
+                        <button id="5" class="grid-item" onclick="button('5')">5</button>
+                        <button id="6" class="grid-item" onclick="button('6')">6</button>
+                        <button id="-" class="grid-item func" onclick="button('-')">-</button>
+                        <button id="1" class="grid-item" onclick="button('1')">1</button>
+                        <button id="2" class="grid-item" onclick="button('2')">2</button>
+                        <button id="3" class="grid-item" onclick="button('3')">3</button>
+                        <button id="+" class="grid-item func" onclick="button('+')">+</button>
+                        <button id="0" class="grid-item-zero" onclick="button('0')">0</button>
+                        <button id="dot" class="grid-item" onclick="button('.')">.</button>
+                        <button id="=" class="grid-item func" onclick="button('=')">=</button>
+                      </div>
+                </div>
+            </article>
+        </section>
+        <!-- Footer Section -->
+        <footer></footer>
+        <!-- Scripts -->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
