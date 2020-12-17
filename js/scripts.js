@@ -11,6 +11,8 @@ function button(x) {
         let sumNum = numList.join('');
         let sumTotal = eval(sumNum);
         document.getElementById('calcDisplay').innerHTML = sumTotal;
+        numList.length = 0;
+        numList.push(sumTotal);
     }
 }
 
